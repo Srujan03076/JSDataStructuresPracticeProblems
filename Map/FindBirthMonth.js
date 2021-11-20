@@ -2,7 +2,7 @@ let monthMap = new Map();
     let res;
     for(let i =1;i<=50;i++)
     {
-        //Generate the random number between 1-12 as birth month
+        //Generate the random no. between 1-12 as birth month
         var randomVal = Math.floor(Math.random()*12+1);
         //checking the month is already present or not
         if(monthMap.has(randomVal))
