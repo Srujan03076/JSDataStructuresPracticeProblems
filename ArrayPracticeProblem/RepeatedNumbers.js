@@ -1,6 +1,6 @@
 let numbers = [];
 
-for (var i = 1; i < 100; i++) {
+for (var i = 0; i < 100; i++) {
     var str = i.toString().split('');
     //console.log(str);
     if (str[0] == str[1]) {
