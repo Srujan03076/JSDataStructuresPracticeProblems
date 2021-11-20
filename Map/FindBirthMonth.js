@@ -17,7 +17,7 @@ let monthMap = new Map();
         //set the unique month value in map
         monthMap.set(randomVal,res);
     }
-    //print the map with key and value
+    //print the map with key & value
     for(let [key,value] of monthMap)
     {
         console.log("Month-" +key+ " is the "+value+ " individual's birth month" );
